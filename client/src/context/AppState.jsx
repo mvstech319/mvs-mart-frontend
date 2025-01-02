@@ -13,7 +13,7 @@ export const AppState = (props) => {
   const [reload, setReload] = useState(false);
   const [userAddress, setUserAddress] = useState([]);
 
-  const url = "http://localhost:3000";
+  const url ="https://mvs-mart.onrender.com";
 
   // ✅ Fetch Products
   const fetchProduct = async () => {
